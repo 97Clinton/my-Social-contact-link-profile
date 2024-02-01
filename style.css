@@ -73,3 +73,20 @@ body {
     /* background-color: hsl(75, 94%, 57%); */
     color: hsl(0, 0%, 8%);
 }
+
+@media only screen and (min-width: 800px) {
+    .profile {
+        background-color: hsl(0, 0%, 12%);
+        width: 350px;
+        border-style: solid;
+        border-width: 0;
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        height: 490px;
+        margin-top: 60px;
+        padding-top: 30px;
+    }
+}
